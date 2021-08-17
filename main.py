@@ -1,8 +1,8 @@
+#func para formatar os nomes
 def create_mail(full_name, count, mail_created):
 
     interlist = []
 
-    # formatação dos nomes
     if len(full_name) < 3:
         interlist.append(full_name[-1].strip())
         mail_created.append(interlist[-1]+"."+full_name[0][0])
